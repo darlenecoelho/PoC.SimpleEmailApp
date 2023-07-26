@@ -1,9 +1,7 @@
 ﻿using PoC.SimpleEmailApp.Models;
 
-namespace PoC.SimpleEmailApp.Services.EmailService
+namespace PoC.SimpleEmailApp.Services.EmailService;
+public interface IEmailService
 {
-    public interface IEmailService
-    {
-        void SendEmail(EmailDto request);
-    }
+    void SendEmail(EmailDto request);
 }
